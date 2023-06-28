@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Cabecalho from './componentes/Cabecalho';
+import Rodape from './componentes/Rodape';
 //Arquivo App JSX
 //Componente funcional = porque ele é uma função
 function App() {
@@ -8,22 +8,9 @@ function App() {
   return (
     // O react substitui className por classe porque class é palavra reservada do JS
     <>
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Gilson Levi
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/gilsonlevi"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Meu Git
-        </a>
-      </header>
-    </div>
+    {/* Nosso cabecalho tem uma propriedade  */}
+    <Cabecalho titulo="Fav.io" subtitulo="O melho site de alguma coisa do Brasil"/>
+    <Rodape/>
     </>
   );
 }
