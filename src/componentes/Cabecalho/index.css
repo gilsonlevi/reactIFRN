@@ -1,0 +1,18 @@
+.cabelhoTotal {
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+
+}
+
+li {
+    padding-left: 20px;
+    list-style: none;
+
+}

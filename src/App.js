@@ -9,7 +9,7 @@ function App() {
     // O react substitui className por classe porque class é palavra reservada do JS
     <>
     {/* Nosso cabecalho tem uma propriedade  */}
-    <Cabecalho titulo="Fav.io" subtitulo="O melho site de alguma coisa do Brasil"/>
+    <Cabecalho/>
     <Rodape/>
     </>
   );
