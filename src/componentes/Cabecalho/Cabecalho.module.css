@@ -1,0 +1,15 @@
+.titulo  {
+    font-size: 3rem;
+    color: chocolate;
+    background-color: #000;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subtitulo {
+    font-size: 2rem;
+}
