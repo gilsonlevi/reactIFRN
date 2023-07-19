@@ -12,7 +12,8 @@ function App() {
     // O react substitui className por classe porque class é palavra reservada do JS
     <>
     {/* Nosso cabecalho tem uma propriedade  */}
-    <Cabecalho logo="logo192.png" titulo="Mercadão" subtitulo="Melhor site de vendas da historia"/>
+
+    <Cabecalho logo= "favimg.png" titulo="Favorito" subtitulo="Melhor site de vendas da historia"/>
     <Conteudo/>
     <Rodape/>
     </>
